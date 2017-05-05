@@ -1,0 +1,15 @@
+{
+  "name": "react-native-navigator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react-mixin": ">= 3.0.5",
+    "react-timer-mixin": ">= 0.13.0"
+  },
+  "author": "程巍巍",
+  "license": "Apache-2.0"
+}
