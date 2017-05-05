@@ -1,7 +1,9 @@
 'use strict';
 
-var Dimensions = require('Dimensions');
-var Platform = require('Platform');
+import {
+  Dimensions,
+  Platform
+} from 'react-native'
 
 var buildStyleInterpolator = require('buildStyleInterpolator');
 var merge = require('merge');
