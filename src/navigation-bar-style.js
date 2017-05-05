@@ -5,8 +5,8 @@ import {
   Platform
 } from 'react-native'
 
-var buildStyleInterpolator = require('buildStyleInterpolator');
-var merge = require('merge');
+var buildStyleInterpolator = require('react-native/Libraries/Utilities/buildStyleInterpolator');
+var merge = require('react-native/Libraries/vendor/core/merge');
 
 var SCREEN_WIDTH = Dimensions.get('window').width;
 var NAV_BAR_HEIGHT = 44;
